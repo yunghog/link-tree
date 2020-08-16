@@ -5,8 +5,8 @@ import home from "./pages/home";
 class App extends Component {
   render() {
     return (
-        <Router>
-          <Route basename="/" exact component={home}/>
+        <Router basename={window.location.pathname || ''}>
+          <Route exact path="/"  component={home}/>
         </Router>
     );
   }
