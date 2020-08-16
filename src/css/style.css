@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-/* dark-theme */
 :root{
+  /* dark-theme */
   --text: #2fd8ba;
   --foreground: #2fd8ba;
   --background: #000005;
@@ -9,7 +9,7 @@
   --highlight-bg: #2fd8ba;
   --highlight-text: #000005;
 }
-[data-theme="dark"]{
+[data-theme="light"]{
   --text: #111122;
   --foreground: #2fd8ba;
   --background: #f1f1f1;
@@ -28,6 +28,12 @@ body{
 h1, h2, h3, h4, h5, h6{
   font-family: 'Monument';
   text-transform: uppercase;
+}
+h3{
+  margin: 0px;
+}
+p{
+  margin: 0px;
 }
 @font-face {
   src: url('../fonts/Monument.otf');
@@ -67,6 +73,7 @@ a{
   position: absolute;
 }
 .avatar img{
+  border: 2px solid var(--border);
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
@@ -80,13 +87,14 @@ a{
   width: 100%;
   border: 2px solid var(--border);
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
   color: var(--text);
   transition: 1s ease;
   box-shadow: 15px 15px 20px #5553;
 }
 .link-icon{
-  font-size: 3rem;
+  padding-left: 10px;
+  font-size: 2rem;
 }
 .link-card:hover{
   background-color: var(--highlight-bg);
