@@ -2,13 +2,19 @@ import React, { Component } from "react";
 import {Container, Row, Col} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faYoutube, faInstagram, faFacebook, faWhatsapp, faLinkedin, faSoundcloud } from '@fortawesome/free-brands-svg-icons'
+import {faEnvelope, faGlobe} from  '@fortawesome/free-solid-svg-icons'
 import "../css/style.css";
 import hero1 from "../images/hero-1.jpg";
 import avatar from "../images/avatar.jpg";
 class home extends Component {
   render() {
     function darkTheme(){
-      document.body.setAttribute('data-theme', 'dark');
+      if(document.body.getAttribute('data-theme')=="light"){
+        document.body.removeAttribute('data-theme');
+      }
+      else{
+        document.body.setAttribute('data-theme', 'light');
+      }
     }
     return (
       <ga>
@@ -36,7 +42,7 @@ class home extends Component {
                   <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                 </div></Col>
                 <Col xs={9}><div className="link-body">
-                  <h3>Github</h3>
+                  <h5>Github</h5>
                   <p>@yunghog</p>
                 </div></Col>
               </Row>
@@ -51,7 +57,7 @@ class home extends Component {
                   <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
                 </div></Col>
                 <Col xs={9}><div className="link-body">
-                  <h3>YouTube</h3>
+                  <h5>YouTube</h5>
                   <p>YUNGH OG Beats</p>
                 </div></Col>
               </Row>
@@ -66,8 +72,97 @@ class home extends Component {
                   <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                 </div></Col>
                 <Col xs={9}><div className="link-body">
-                  <h3>Instagram</h3>
+                  <h5>Instagram</h5>
                   <p>@samartha__</p>
+                </div></Col>
+              </Row>
+            </div>
+          </a>
+        </Col>
+        <Col>
+          <a href="https://soundcloud.com/yunghog" target="_blank">
+            <div className="link-card">
+              <Row noGutters>
+                <Col xs={3}><div className="link-icon">
+                  <FontAwesomeIcon icon={faSoundcloud}></FontAwesomeIcon>
+                </div></Col>
+                <Col xs={9}><div className="link-body">
+                  <h5>SoundCloud</h5>
+                  <p>YUNGH OG beats</p>
+                </div></Col>
+              </Row>
+            </div>
+          </a>
+        </Col>
+        <Col>
+          <a href="https://www.linkedin.com/in/samartha-hm-7398861a1/" target="_blank">
+            <div className="link-card">
+              <Row noGutters>
+                <Col xs={3}><div className="link-icon">
+                  <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                </div></Col>
+                <Col xs={9}><div className="link-body">
+                  <h5>Linkedin</h5>
+                </div>@Samartha Hm</Col>
+              </Row>
+            </div>
+          </a>
+        </Col>
+        <Col>
+          <a href="mailto:samarthaog@gmail.com" target="_blank">
+            <div className="link-card">
+              <Row noGutters>
+                <Col xs={3}><div className="link-icon">
+                  <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                </div></Col>
+                <Col xs={9}><div className="link-body">
+                  <h5>Mail ID</h5>
+                  <p>samarthaog@gmail.com</p>
+                </div></Col>
+              </Row>
+            </div>
+          </a>
+        </Col>
+        <Col>
+          <a href="http://www.ms800hub.rf.gd" target="_blank">
+            <div className="link-card">
+              <Row noGutters>
+                <Col xs={3}><div className="link-icon">
+                  <FontAwesomeIcon icon={faGlobe}></FontAwesomeIcon>
+                </div></Col>
+                <Col xs={9}><div className="link-body">
+                  <h5>MS800 Hub</h5>
+                  <p>Join the crew</p>
+                </div></Col>
+              </Row>
+            </div>
+          </a>
+        </Col>
+        <Col>
+          <a href="https://yunghog.github.io" target="_blank">
+            <div className="link-card">
+              <Row noGutters>
+                <Col xs={3}><div className="link-icon">
+                  <FontAwesomeIcon icon={faGlobe}></FontAwesomeIcon>
+                </div></Col>
+                <Col xs={9}><div className="link-body">
+                  <h5>My Portfolio</h5>
+                  <p>MERN Stack Website</p>
+                </div></Col>
+              </Row>
+            </div>
+          </a>
+        </Col>
+        <Col>
+          <a href="https://api.whatsapp.com/send?phone=918904460742" target="_blank">
+            <div className="link-card">
+              <Row noGutters>
+                <Col xs={3}><div className="link-icon">
+                  <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon>
+                </div></Col>
+                <Col xs={9}><div className="link-body">
+                  <h5>Whatsapp</h5>
+                  <p>Text</p>
                 </div></Col>
               </Row>
             </div>
@@ -75,6 +170,13 @@ class home extends Component {
         </Col>
       </Row>
       <button onClick={darkTheme}>theme</button>
+    </Container>
+    <Container>
+      <Row>
+        <Col>
+          
+        </Col>
+      </Row>
     </Container>
   </ga>
     );
