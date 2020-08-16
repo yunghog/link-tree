@@ -1,7 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Samartha Link Tree",
+  "name": "Samartha Link Tree",
   "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
