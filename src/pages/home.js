@@ -169,12 +169,13 @@ class home extends Component {
           </a>
         </Col>
       </Row>
-      <button onClick={darkTheme}>theme</button>
+      <br/>
+      <button className="btn btn-1" onClick={darkTheme}>Switch Theme</button>
     </Container>
     <Container>
       <Row>
         <Col>
-          
+
         </Col>
       </Row>
     </Container>
