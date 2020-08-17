@@ -8,25 +8,31 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import hero1 from "../images/hero-1.jpg";
 import avatar from "../images/avatar.jpg";
+import load from "../images/loadingImg.png";
 class home extends Component {
   render() {
     AOS.init({
       duration: 1000,
       once: true
     });
-    function darkTheme(){
-      if(document.body.getAttribute('data-theme')=="light"){
-        document.body.removeAttribute('data-theme');
-      }
-      else{
-        document.body.setAttribute('data-theme', 'light');
-      }
-    }
+    // function darkTheme(){
+    //   if(document.body.getAttribute('data-theme')=="light"){
+    //     document.body.removeAttribute('data-theme');
+    //   }
+    //   else{
+    //     document.body.setAttribute('data-theme', 'light');
+    //   }
+    // }
     document.body.setAttribute('data-aos','fade');
     document.body.setAttribute('data-aos-delay','300');
     return (
-      <ga>
-      <Container fluid id="themeSwitch">
+      <div  id="content-wrapper">
+      {/* <div className="loading-con">
+       <div className="loading-img">
+        <img src={load}/>
+       </div>
+     </div>*/}
+      <Container fluid>
         <Row noGutters><Col>
           <div className="header-con">
             <div className="header-img">
@@ -35,7 +41,7 @@ class home extends Component {
             <div className="avatar">
               <img src={avatar}/>
             </div>
-            <div className="title-text"  data-aos="fade-up"><h1>Samartha</h1><h5>Developer | Beatmaker | Graphic Designer</h5></div>
+            <div className="title-text"  data-aos="fade-up"><h1>Samartha</h1><h6>Developer | Beatmaker | Graphic Designer</h6></div>
           </div>
         </Col></Row>
       </Container>
@@ -178,7 +184,6 @@ class home extends Component {
         </Col>
       </Row>
       <br/>
-      <button className="btn btn-1" onClick={darkTheme}>Switch Theme</button>
     </Container>
     <Container>
       <Row>
@@ -187,7 +192,7 @@ class home extends Component {
         </Col>
       </Row>
     </Container>
-  </ga>
+  </div>
     );
   }
 }
