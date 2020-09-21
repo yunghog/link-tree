@@ -167,6 +167,21 @@ class home extends Component {
             </div>
           </a>
         </Col>
+        <Col data-aos="fade-right" data-aos-delay={400}>
+          <a href="https://creedthoughts.herokuapp.com" target="_blank">
+            <div className="link-card">
+              <Row noGutters>
+                <Col xs={3}><div className="link-icon">
+                  <FontAwesomeIcon icon={faGlobe}></FontAwesomeIcon>
+                </div></Col>
+                <Col xs={9}><div className="link-body">
+                  <h5>My Blog</h5>
+                  <p>Node JS blog app</p>
+                </div></Col>
+              </Row>
+            </div>
+          </a>
+        </Col>
         <Col data-aos="fade-right" data-aos-delay={500}>
           <a href="https://api.whatsapp.com/send?phone=918904460742" target="_blank">
             <div className="link-card">
