@@ -12,29 +12,16 @@ class Footer extends Component {
     function switchTheme(){
       var theme = document.getElementById('theme-select').value;
       document.body.setAttribute('data-theme', theme);
-    //   if(document.body.getAttribute('data-theme')=="light"){
-    //     document.body.removeAttribute('data-theme');
-    //   }
-    //   else{
-    //     document.body.setAttribute('data-theme', 'light');
-    //   }
     }
-    document.body.setAttribute('data-aos','fade');
-    document.body.setAttribute('data-aos-delay','300');
     return (
-      <footer class="footer">
+      <footer className="footer">
       <Container>
-        <Row>
-          <Col md={12} className="text-center">
-
-          </Col>
-        </Row>
         <Row>
           <Col md={6} className="text-center">
             Switch Theme
-            <select onChange={switchTheme} id="theme-select">
+            <select onChange={switchTheme} id="theme-select" defaultValue="light">
               <option value="dark">Dark</option>
-              <option selected value="light">Light</option>
+              <option value="light">Light</option>
             </select>
           </Col>
           <Col md={6} className="text-center">

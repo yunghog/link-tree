@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faYoutube, faInstagram, faFacebook, faWhatsapp, faLinkedin, faSoundcloud } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faYoutube, faInstagram, faWhatsapp, faLinkedin, faSoundcloud } from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope, faGlobe} from  '@fortawesome/free-solid-svg-icons'
 
 export const Links=[
