@@ -27,7 +27,7 @@ export const Links=[
     "icon":faSoundcloud
   },
   {
-    "site":"linnkedin",
+    "site":"linkedin",
     "username":"@Samartha H M",
     "link":"https://www.linkedin.com/in/samartha-hm-7398861a1/",
     "icon":faLinkedin
