@@ -24,7 +24,7 @@ class home extends Component {
             <div className="avatar">
               <img src={avatar} alt="samartha"/>
             </div>
-            <div className="title-text"  data-aos="fade-up"><h1>Samartha</h1><h6>Developer | Graphic Designer</h6></div>
+            <div className="title-text"  data-aos="fade-up"><h1>Samartha</h1><h6>Developer | Beatmaker | Graphic Designer</h6></div>
           </div>
         </Col></Row>
       </Container>
