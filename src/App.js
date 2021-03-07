@@ -11,8 +11,8 @@ class App extends Component {
         <HashRouter basename={process.env.PUBLIC_URL}>
             <Route exact path="/"  component={home}/>
             <Route path="/release/:release"  component={Release}/>
+            <Footer/>
         </HashRouter>
-        <Footer/>
       </div>
     );
   }
