@@ -12,7 +12,8 @@ class Release extends Component {
     return (
       <div  id="content-wrapper">
       <Container fluid>
-        {{this.props.match.param}}
+      <h1>HAAAAAAAAA</h1>
+      <h1>{this.props.match.params.release}</h1>
       </Container>
       </div>
     );
