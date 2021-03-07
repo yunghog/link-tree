@@ -11,8 +11,8 @@ class App extends Component {
         <Router>
             <Route exact path="/"  component={home}/>
             <Route path="/release/:release"  component={Release}/>
-          <Footer/>
         </Router>
+        <Footer/>
       </div>
     );
   }
