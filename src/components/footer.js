@@ -26,7 +26,7 @@ class Footer extends Component {
           </Col>
           <Col md={6} className="text-center">
               <p>
-              © 2020 All rights reserved | Samartha
+              © 2021 All rights reserved | Samartha
               </p>
           </Col>
         </Row>

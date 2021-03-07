@@ -3,7 +3,6 @@ import {Container, Row, Col} from 'react-bootstrap';
 import {Releases} from '../components/new_release.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube, faInstagram, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
-import nightmare from '../images/release/nightmare.jpg';
 import hero1 from "../images/hero-1.jpg";
 import "../css/style.css";
 import AOS from "aos";
@@ -41,10 +40,10 @@ class Release extends Component {
               <div className="release-con">
                 <div className="release">
                     <div className="release-img">
-                      <img src={nightmare} alt={this.data.name}/>
+                      <img src={this.data.image} alt={this.data.name}/>
                     </div>
                     <div className="release-name">
-                      <h2>{this.data.name}</h2>
+                      <h4>{this.data.name}</h4>
                       <p>{this.data.desc}</p>
                     </div>
                     <div className="release-links-con">
