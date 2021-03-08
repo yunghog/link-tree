@@ -50,8 +50,7 @@ class Release extends Component {
                       <div className="release-links">
                         <Row>
                           <Col xs={8} className="text-left">
-                            <h5><FontAwesomeIcon style={this.icon_space} icon={faYoutube}/>
-                            YOUTUBE</h5>
+                            <h5><FontAwesomeIcon style={this.icon_space} icon={faYoutube}/>YOUTUBE</h5>
                           </Col>
                           <Col xs={4}>
                             <a href={this.data.yt} className="btn btn-1">play</a>
