@@ -1,7 +1,6 @@
 # My personal link tree
 [Visit](https://yunghog.github.io/link-tree)
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
