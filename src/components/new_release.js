@@ -58,8 +58,8 @@ export const Releases=[
     "name":"Christ Chose Me",
     "desc":"Cole The VII ft YUNGH OG",
     "image":ccm,
-    "yt":"https://youtu.be/XyXSCZXAzUw",
+    "yt":"https://youtu.be/2GBisNpOZ4E",
     "sc":"https://soundcloud.com/yunghog/ccm",
-    "igtv":"https://www.instagram.com/tv/CB5Igs2gnwE"
+    "igtv":"https://www.instagram.com/tv/CNANy8hF6ry"
   }
 ];
