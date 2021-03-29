@@ -5,6 +5,8 @@ import prayforme from '../images/release/pray-for-me.jpg'
 import company from '../images/release/company.jpg'
 import conversations from '../images/release/conversations.jpg'
 import ghost from '../images/release/ghost.jpg'
+import ccm from '../images/release/christ-chose-me.jpg'
+
 export const Releases=[
   {
     "id":"nightmare",
@@ -49,6 +51,15 @@ export const Releases=[
     "image":ghost,
     "yt":"https://youtu.be/XyXSCZXAzUw",
     "sc":"https://soundcloud.com/yunghog/ghost",
+    "igtv":"https://www.instagram.com/tv/CB5Igs2gnwE"
+  },
+  {
+    "id":"ccm",
+    "name":"Christ Chose Me",
+    "desc":"Cole The VII ft YUNGH OG",
+    "image":ccm,
+    "yt":"https://youtu.be/XyXSCZXAzUw",
+    "sc":"https://soundcloud.com/yunghog/ccm",
     "igtv":"https://www.instagram.com/tv/CB5Igs2gnwE"
   }
 ];
