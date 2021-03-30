@@ -6,6 +6,7 @@ import company from '../images/release/company.jpg'
 import conversations from '../images/release/conversations.jpg'
 import ghost from '../images/release/ghost.jpg'
 import ccm from '../images/release/christ-chose-me.jpg'
+import violate from '../images/release/violate.jpg'
 
 export const Releases=[
   {
@@ -61,5 +62,14 @@ export const Releases=[
     "yt":"https://youtu.be/2GBisNpOZ4E",
     "sc":"https://soundcloud.com/yunghog/ccm",
     "igtv":"https://www.instagram.com/tv/CNANy8hF6ry"
+  },
+  {
+    "id":"violate",
+    "name":"Violate",
+    "desc":"Dinero ft YUNGH OG",
+    "image":violate,
+    "yt":"https://youtu.be/hV0gygJu7e4",
+    "sc":"https://soundcloud.com/yunghog/violate",
+    "igtv":"https://www.instagram.com/tv/CNCzJMVFPSh"
   }
 ];
