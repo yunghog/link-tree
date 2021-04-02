@@ -7,6 +7,8 @@ import conversations from '../images/release/conversations.jpg'
 import ghost from '../images/release/ghost.jpg'
 import ccm from '../images/release/christ-chose-me.jpg'
 import violate from '../images/release/violate.jpg'
+import missme from '../images/release/missme.jpg'
+
 
 export const Releases=[
   {
@@ -71,5 +73,14 @@ export const Releases=[
     "yt":"https://youtu.be/hV0gygJu7e4",
     "sc":"https://soundcloud.com/yunghog/violate",
     "igtv":"https://www.instagram.com/tv/CNCzJMVFPSh"
+  },
+   {
+    "id":"missme",
+    "name":"Missme",
+    "desc":"YUNGH OG X Macrazy X Blake.zip",
+    "image":missme,
+    "yt":"https://youtu.be/khVBwceK73I",
+    "sc":"https://soundcloud.com/yunghog/missme",
+    "igtv":"https://www.instagram.com/tv/CNK9HvrFzFt"
   }
 ];
